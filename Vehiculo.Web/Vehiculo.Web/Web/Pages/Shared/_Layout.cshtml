@@ -29,6 +29,11 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="Vehiculos/Index">Vehiculos</a>
                         </li>
                     </ul>
+                    <div class="align-content-end navbar-nav text-uppercase">
+                        @await Html.PartialAsync("AutenticacionParcial")
+                    </div>
+
+
                 </div>
             </div>
         </nav>
